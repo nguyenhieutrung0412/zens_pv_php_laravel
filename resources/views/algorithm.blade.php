@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             h2{
-                text-align: center;
+              
                 font-size: 18px;
             }
             .result{
