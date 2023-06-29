@@ -19,7 +19,7 @@ use App\Http\Controllers\JokerController;
 
 
 Route::get('/', [AlgorithmController::class, 'index']);
-Route::post('/index', [AlgorithmController::class, 'index'])->name('value');
+// Route::post('/index', [AlgorithmController::class, 'index'])->name('value');
 Route::get('/joker', [JokerController::class, 'index'])->name('joker');
 Route::get('/joker_like/{id}', [JokerController::class, 'like'])->name('joker_like');
 Route::get('/joker_dislike/{id}', [JokerController::class, 'dislike'])->name('joker_dislike');
